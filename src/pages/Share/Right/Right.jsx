@@ -2,11 +2,11 @@ import React from 'react';
 
 const Right = () => {
     return (
-        <div className=' absolute right-0 h-full flex justify-center items-center'>
+        <div className=' fixed right-0 h-full flex justify-center items-center'>
             <div className="">
-                <h1>right</h1>
+                <h3>Follow me</h3>
+                <a href="#"></a>
             </div>
-
         </div>
     );
 };
