@@ -44,7 +44,7 @@ const Left = () => {
     ]
     return (
         <div className=''>
-            <div className={`fixed h-full z-10 w-full lg:left-0 md:w-auto duration-150 ease-in-out bg-slate-700 md:bg-transparent flex justify-center items-center ${open ? ' left-0' : ' -left-full'}`} >
+            <div className={`fixed h-full z-20 w-full lg:left-0 md:w-auto duration-150 ease-in-out bg-slate-700 md:bg-transparent flex justify-center items-center ${open ? ' left-0' : ' -left-full'}`} >
                 <ul className='flex flex-col justify-center items-center'>
                     {
                         items.map(item => <li
@@ -53,7 +53,7 @@ const Left = () => {
                         >
                             <NavLink className={({ isActive, isPending }) =>
                                 isActive
-                                    ? " bg-blue-400 py-2 px-3 duration-75 ease-in rounded-lg text-white"
+                                    ? " bg-blue-400 py-1 px-3 duration-75 ease-in pulser inline-block rounded-lg text-white"
                                     : isPending
                                         ? ""
                                         : ""
@@ -64,7 +64,7 @@ const Left = () => {
                     }
                 </ul>
             </div>
-            <div className="block lg:hidden z-10 fixed right-5 top-5">
+            <div className="block lg:hidden z-20 fixed right-5 top-5">
                 <button onClick={() => setOpen(!open)} className="py-2 text-white z-10 px-2 bg-blue-400 pulser">
                     {open ? < AiOutlineClose className=' text-3xl duration-100 ' /> : <AiOutlineAlignRight className=' text-3xl ' />}
                 </button>

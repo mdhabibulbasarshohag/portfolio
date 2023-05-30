@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaRibbon } from "react-icons/fa";
+// import { FaRibbon } from "react-icons/fa";
 
 import './Home.css';
 import { TypeAnimation } from 'react-type-animation';
@@ -11,7 +11,7 @@ const Home = () => {
         <div className='flex flex-col justify-center items-center pt-16 px-1 lg:pt-10 md:pt-24'>
             <div className='text-center'>
                 <h5 className=' font-bold text-xl text-user'>Hi, my name is</h5>
-                <h1 class="glitch text-6xl my-5 font-extrabold text-blue-400n" data-glitch="MD. HABIBUL BASAR SHOHAG">MD. HABIBUL BASAR SHOHAG</h1>
+                <h1 className="glitch text-6xl my-5 font-extrabold text-blue-400n" data-glitch="MD. HABIBUL BASAR SHOHAG">MD. HABIBUL BASAR SHOHAG</h1>
                 <h2 className='mb-7 text-base md:text-3xl font-bold'>
                     <span>I am a Professional</span>
                     <span

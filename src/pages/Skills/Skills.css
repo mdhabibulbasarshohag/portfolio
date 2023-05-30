@@ -1,0 +1,92 @@
+.skill-level {
+    position: absolute;
+    /* right: -25px; */
+    animation: rocket 2s ease-in-out infinite;
+}
+
+@keyframes rocket {
+    0% {
+        right: 0%;
+        opacity: 0;
+
+    }
+
+    50% {
+        right: -10%;
+        color: #f87171;
+        opacity: 1;
+    }
+
+    100% {
+        right: -12%;
+        opacity: 0;
+        /* z-index: -1; */
+    }
+}
+
+
+.bg-skill {
+    animation: 5s colorChange infinite ease-in;
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+@keyframes colorChange {
+    0% {
+        background-size: 0%;
+    }
+
+    /* 50% {
+        background-size: 100%;
+    } */
+
+    100% {
+        background-size: 100%;
+    }
+
+}
+
+/* @keyframes colorChange {
+    0% {
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    }
+
+    50% {
+        background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    }
+
+    100% {
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%);
+    }
+
+} */
+
+/* 0% {
+        background: #19dcea;
+    }
+
+    50% {
+        background-color: #f87171;
+    }
+
+    100% {
+        background: #b22cff;
+    } */
+/* @keyframes skillLevel {
+
+
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0;
+    }
+
+
+} */

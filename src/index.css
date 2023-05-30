@@ -9,7 +9,8 @@
 
   color-scheme: light dark;
   color: #c5c6c7;
-  background-color: #242631;
+  /* background-color: #242631; */
+  background-color: rgb(15 23 42);
   /* background-color: rgb(226, 199, 255); */
   font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -85,8 +85,13 @@
     z-index: -1;
     top: -30px;
     border-radius: 12px;
-    background-color: #a7a0fe;
+    /* background-color: #a7a0fe; */
+    background: rgba(167, 160, 254, 0.5);
+    -webkit-backdrop-filter: blur(22px);
+    backdrop-filter: blur(22px);
+    border: 1px solid rgba(167, 160, 254, 0.25);
     animation: leftOver 2s ease-in-out infinite;
+
 }
 
 @keyframes leftOver {

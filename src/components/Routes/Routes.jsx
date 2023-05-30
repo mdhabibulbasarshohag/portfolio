@@ -3,6 +3,8 @@ import Main from "../Main/Main";
 import Home from "../../pages/Home/Home";
 import ErrorPage from "../../pages/ErrorPage/ErrorPage";
 import About from "../../pages/About/About";
+import Skills from "../../pages/Skills/Skills";
+import Projects from "../../pages/Projects/Projects";
 
 export const router = createBrowserRouter([
     {
@@ -12,8 +14,8 @@ export const router = createBrowserRouter([
         children: [
             { path: "/", element: <Home></Home> },
             { path: "/about", element: <About></About> },
-            { path: "/skills", element: <div>hello skills</div> },
-            { path: "/project", element: <div>hello projects</div> },
+            { path: "/skills", element: <Skills></Skills> },
+            { path: "/project", element: <Projects></Projects> },
             { path: "/contact", element: <div>hello contact</div> },
         ]
     }

@@ -1,0 +1,45 @@
+.about-text-h3 {
+    position: relative;
+    /* width: 100px; */
+    /* display: inline-block; */
+}
+
+.about-text-h3::after {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    width: 100px;
+    height: 5px;
+    background-color: #60a5fa;
+    animation: 2s aboutTextH3 infinite ease-in-out;
+}
+
+@keyframes aboutTextH3 {
+    0% {
+        width: 100px;
+    }
+
+    50% {
+        width: 0;
+    }
+
+    100% {
+        width: 100px;
+    }
+}
+
+.h2Span {
+    position: relative;
+}
+
+.h2Span::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    width: 82%;
+    height: 2px;
+    background-color: #60a5fa;
+}
